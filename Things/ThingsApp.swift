@@ -1,17 +1,15 @@
-//
-//  ThingsApp.swift
-//  Things
-//
-//  Created by Евгений Гроза on 17.05.2026.
-//
-
 import SwiftUI
 
 @main
 struct ThingsApp: App {
+
+    @StateObject private var appState = AppState()
+
     var body: some Scene {
+
         WindowGroup {
             ContentView()
+                .environmentObject(appState)
         }
     }
 }
