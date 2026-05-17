@@ -44,8 +44,9 @@ This project focuses on:
 ---
 
 ## Screenshots
-
-(Add screenshots here)
+![inbox](Screenshot inbox.png)
+![done](Screenshot done.png)
+![done animation](Screenshot done animation.png)
 
 ---
 
