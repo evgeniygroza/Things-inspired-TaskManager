@@ -1,26 +1,29 @@
-# Things-inspired Task Manager
+# Things-style Task Manager
 
-A minimal productivity app inspired by Things 3.
+A polished macOS productivity app inspired by the workflow of Things 3.
 
 ---
 
 ## Features
 
-- Create tasks in different sections (Inbox, Today, Upcoming)
-- Mark tasks as important
-- Mark tasks as completed with smooth animations
-- Persistent storage using UserDefaults + Codable
-- Clean SwiftUI architecture
+- Capture tasks into Inbox, Today, Upcoming, Anytime, Someday, and Logbook
+- Add notes, dates, and importance directly from the quick-entry composer
+- Automatic Today and Upcoming views based on scheduled dates
+- Complete, restore, move, delete, and mark tasks from each row menu
+- Sidebar counts, empty states, grouped upcoming/logbook sections, and hover actions
+- Persistent storage using UserDefaults + Codable with backward-compatible decoding
+- Clean SwiftUI architecture with reusable views
 
 ---
 
 ## UI / UX Focus
 
 This project focuses on:
-- minimal and clean interface
-- fast interactions
+- calm macOS-native task management
+- fast capture and low-friction triage
+- readable lists with just enough metadata
 - smooth state transitions
-- “Things-like” task flow
+- Things-like task flow without copying proprietary assets
 
 ---
 
@@ -53,6 +56,7 @@ This project focuses on:
 ## Future improvements
 
 - Drag & drop reordering
+- Inline editing
 - Better task scheduling system
 - iCloud sync
 - Advanced filtering system

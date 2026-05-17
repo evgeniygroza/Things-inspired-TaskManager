@@ -10,6 +10,8 @@ struct ThingsApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
+                .tint(ThingsTheme.orange)
         }
+        .windowStyle(.titleBar)
     }
 }
